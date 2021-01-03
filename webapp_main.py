@@ -49,8 +49,8 @@ columns = [
 for column in columns:
     column['hideable'] = True
 
-categories = ['Clarity of Learning Outcomes', 'Clear Assessment', "Demonstrate Learning Outcomes", "Feedback and Learning Outcomes",
-              "Resources and Learning Outcomes", "Activities and Learning Outcomes", "Engagement", "Satisfaction"]
+categories = ['1. Clarity of Learning Outcomes', '2. Clear Assessment', "3. Demonstrate Learning Outcomes", "4. Feedback and Learning Outcomes",
+              "5. Resources and Learning Outcomes", "6. Activities and Learning Outcomes", "7. Engagement", "8. Satisfaction"]
 
 # App body design here
 app.layout = html.Div(style={'fontColor': 'blue'},id='main-screen', children=[
